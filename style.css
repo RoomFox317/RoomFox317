@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #004499;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 18px;
+    }
+
+    table, img {
+        width: 100%;
+    }
+}
+
+/* Додаткові анімації та переходи */
+button:hover {
+    transition: background-color 0.3s ease;
+    background-color: #0055cc;
+}
+
+
+/* Адаптивність для малих екранів */
+@media screen and (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: 16px; /* Менший розмір шрифту для малих екранів */
+    }
+    img {
+        max-width: 100%;
+        height: auto; /* Адаптивні зображення */
+    }
+}
+
+/* Адаптивність для середніх екранів */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    h1, h2, h3 {
+        font-size: 20px; /* Середній розмір шрифту для середніх екранів */
+    }
+}
+
+/* Адаптивність для великих екранів */
+@media screen and (min-width: 1025px) {
+    h1, h2, h3 {
+        font-size: 24px; /* Великий розмір шрифту для великих екранів */
+    }
+}
